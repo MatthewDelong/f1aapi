@@ -194,19 +194,6 @@
             "name": "Hitech"
         }
     },
-    "77": {
-        "Driver": {
-            "driverId": "fisher",
-            "permanentNumber": "77",
-            "code": "FIS",
-            "givenName": "Aut",
-            "familyName": "Fisher"
-        },
-        "Constructor": {
-            "constructorId": "hitech",
-            "name": "Hitech"
-        }
-    },
     "56": {
         "Driver": {
             "driverId": "robertson",
@@ -214,6 +201,19 @@
             "code": "ROB",
             "givenName": "Rachel",
             "familyName": "Robertson"
+        },
+        "Constructor": {
+            "constructorId": "hitech",
+            "name": "Hitech"
+        }
+    },
+    "77": {
+        "Driver": {
+            "driverId": "fisher",
+            "permanentNumber": "77",
+            "code": "FIS",
+            "givenName": "Aut",
+            "familyName": "Fisher"
         },
         "Constructor": {
             "constructorId": "hitech",
