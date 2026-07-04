@@ -70,12 +70,11 @@ def format_race(data):
             res.pop("laps", None)
             res.pop("gap", None)
             
-        best_time = d.get('Best', '')
-        if best_time and time_val != "":
+        if is_fastest and time_val != "":
             res["FastestLap"] = {
-                "rank": "1" if is_fastest else "",
+                "rank": "1",
                 "lap": str(d.get('BestLap', '1')),
-                "Time": { "time": best_time }
+                "Time": { "time": d.get('Best', '') }
             }
             
         formatted_data.append(res)
